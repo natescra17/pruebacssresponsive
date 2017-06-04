@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Dancing-Script;
+    src: url("DancingScript.ttf");
+}
+
+@media all and (max-width: 650px){
+  .contenido {
+    width: 100%;
+  }
+
+  .secundario {
+    display: block;
+  }
+
+  .secundario img {
+    width: 90%;
+  }
+
+  footer, header{
+    display: block;
+  }
+
+  footer div, header div {
+    width: 100%;
+  }
+
+}

@@ -1,34 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
 
-    <meta charset="utf-8">
-    <meta name="author" content="Nathalia Escalante">
-    <meta name="description" content=“CSS y Diseño Web Responsive“>
-    <meta name="viewport" content="width=device-width,user-scalable=no">
+<head>
 
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/media.css">
+  <meta charset="utf-8">
+  <meta name="author" content="Nathalia Escalante">
+  <meta name="description" content=“CSS y Diseño Web Responsive“>
+  <meta name="viewport" content="width=device-width,user-scalable=no">
 
-    <title>CSS y Diseño Web Responsive Nathalia Escalante</title>
-  </head>
-  <body>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/media.css">
 
+  <title>CSS y Diseño Web Responsive Nathalia Escalante</title>
+</head>
+
+<body>
+  <div class="contenido">
     <header>
-      <h1>Comenzando con la fotograf&iacute;a</h1>
-      <navbar id="principal">
-        <a href="">Inicio</a>
-        <a href="">Paisajes</a>
-        <a href="">Retratos</a>
-      </navbar>
+      <div>
+        <h1>Comenzando con la fotograf&iacute;a</h1>
+      </div>
+      <div>
+        <nav>
+          <ul>
+            <li class="active"><a class="menu" href="">Inicio</a></li>
+            <li><a class="menu" href="">Paisajes</a></li>
+            <li><a class="menu" href="">Retratos</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+    <div class="principal">
+      <img src="images/principal.jpg" alt="Imagen Principal">
+    </div>
 
-    <div id="">
-
+    <div class="secundario">
+      <img id="imgPaisaje" src="images/paisaje.jpg" alt="Imagen Paisaje">
+      <img id="imgRetrato" src="images/retrato.jpg" alt="Imagen Retrato">
     </div>
 
     <footer>
+      <div>
+        <h5>Contacto</h5>
+        <p class="info">
+          Correo: <a href="mailto:nathy.escalante@gmail.com?Subject=Contacto" target="_top">nathy.escalante@gmail.com</a> <br /> Direcci&oacute;n: Cartago, Costa Rica <br/> Tel&eacute;fono: 7114-8814
+          </br/>
+        </p>
+      </div>
 
+      <div>
+        <h5>T&eacute;rminos</h5>
+        <p class="info">
+          El usuario conoce y acepta que el portal no otorga ninguna garantía de cualquier naturaleza, ya sea expresa o implícita, sobre los datos, contenidos, información y servicios que se incorporan y ofrecen desde el Portal.
+        </p>
+      </div>
+
+      <div>
+        <h5>Redes sociales</h5>
+      </div>
+
+      <div>
+        <h5>Derechos</h5>
+      </div>
     </footer>
-  </body>
+  </div>
+</body>
+
 </html>
