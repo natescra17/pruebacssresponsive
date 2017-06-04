@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+}
+
+header {
+  background-color: #5b7989;
+  margin: auto;
+  width: 80%;
+  border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+  color: white;
+  text-shadow:2px 2px #02010a;
+  padding: 15px 12px;
+  width: 50%;
+}
+
+header principal {
+  width: 50%;
+}
