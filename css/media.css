@@ -3,6 +3,21 @@
     src: url("DancingScript.ttf");
 }
 
+@keyframes enterAnimation {
+
+  0% {
+    margin-top: 150%;
+  }
+
+  60% {
+    margin-top: -5%;
+  }
+
+  100% {
+    margin-top: 0%;
+  }
+}
+
 @media screen and (max-width: 650px){
   .contenido {
     width: 100%;

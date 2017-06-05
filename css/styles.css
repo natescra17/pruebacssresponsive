@@ -66,6 +66,12 @@ header nav li {
   max-width: 900px;
   margin: 0 auto;
   display: block;
+
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: enterAnimation;
 }
 
 .principal {
