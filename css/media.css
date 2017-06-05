@@ -3,25 +3,33 @@
     src: url("DancingScript.ttf");
 }
 
-@media all and (max-width: 650px){
+@media screen and (max-width: 650px){
   .contenido {
     width: 100%;
   }
 
-  .secundario {
+  .secundario, .secciones {
     display: block;
   }
 
-  .secundario img {
-    width: 90%;
+  .principal img, .secundario img, .secciones img {
+    width: 95%;
   }
 
   footer, header{
     display: block;
   }
 
-  footer div, header div {
+  footer section, header div {
+    text-align: center;
     width: 100%;
   }
 
+  header nav li {
+    float: none;
+  }
+
+  .info {
+    text-align: center;
+  }
 }
